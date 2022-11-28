@@ -7,7 +7,11 @@
 // Напишите функцию которая принимает два числа в качестве аргумента
 // Сравнивает их и выводит в консоль сообщение о том какое число больше
 
+function biggerNumber(a, b) {
+    console.log(`Number ${Math.max(a, b)} bigger than ${Math.min(a, b)}`)
+};
 
+biggerNumber(-4, 19)
 // Напишите функцию которая принимает три числа в качестве аргумента
 // Находит наибольшее из трёх
 
@@ -25,10 +29,3 @@ const myProfile = {
     hasChildren: false,
     married: true
 }
-
-console.log(Object.entries(myProfile))
-
-  
-
-
-
